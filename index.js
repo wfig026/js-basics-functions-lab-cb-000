@@ -1,12 +1,17 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks() {
-
+function distanceFromHqInBlocks(block) {
+  if (block > 42) {
+    return block - 42
+  }
+  if (block < 42) {
+    return 42 - block
+  }
 };
-function distanceFromHqInFeet() {
+function distanceFromHqInFeet(block) {
 
 };
 function distanceTravelledInFeet(start, destination) {
-  return (start - destination) * 264;
+
 };
 function calculatesFarePrice(start, destination) {
 
